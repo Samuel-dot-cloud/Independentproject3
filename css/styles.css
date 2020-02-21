@@ -24,6 +24,7 @@
     text-align: center;
     background-color: white;
 }
+
 .third {
     background-image: url(/home/samuel/Documents/week-3/IP3/img/backgrounds/s_image.jpg);
     background-color: white;
@@ -35,18 +36,21 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .fourth {
     text-align: center;
 }
+
 .format {
     margin: 5px;
-    
     float: left;
     width: 180px;
 }
+
 div.format:hover {
     border: 1px solid #777;
 }
+
 div.format img {
     width: 100%;
     height: auto;
@@ -54,20 +58,28 @@ div.format img {
     margin-left: auto;
     margin-right: auto;
 }
+
 div.desc {
-    
     text-align: center;
 }
+
 * {
     box-sizing: border-box;
 }
+
 .column {
     float: left;
     width: 25%;
     padding: 5px;
 }
+
 .row::after {
-    content:"";
+    content: "";
     clear: both;
     display: table;
+}
+
+.fifth {
+    background-color: white;
+    text-align: center;
 }
