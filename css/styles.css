@@ -83,3 +83,8 @@ div.desc {
     background-color: white;
     text-align: center;
 }
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding:5px;
+}
