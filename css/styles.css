@@ -35,3 +35,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.fourth {
+    text-align: center;
+}
+.format {
+    margin: 5px;
+    
+    float: left;
+    width: 180px;
+}
