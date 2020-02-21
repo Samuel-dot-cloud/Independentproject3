@@ -1,7 +1,7 @@
 .first {
     background-image: url(/home/samuel/Documents/week-3/IP3/img/backgrounds/h_img.jpg), url(/home/samuel/Documents/week-3/IP3/img/mouse_click.png);
     background-color: #cccccc;
-    height: 500px;
+    height: 100%;
     width: 100%;
     background-position: center center, center bottom;
     background-repeat: no-repeat, no-repeat;
@@ -80,4 +80,15 @@ div.desc {
     width: 100%;
     text-align: center;
     height: 500px;
+    text-align: center;
+    color: white;
+}
+.text1 {
+    text-align: center;
+    float: center;
+    color: white;
+}
+.inputfl {
+    opacity: 0.3;
+    text-align: center;
 }
