@@ -17,7 +17,7 @@
 }
 
 .img2 {
-    position: absolute
+    float: center;
 }
 
 .second {
@@ -88,7 +88,21 @@ div.desc {
     float: center;
     color: white;
 }
-.inputfl {
-    opacity: 0.3;
+.form-group {
+    opacity: 0.2;
     text-align: center;
+    padding: 40px;
+    
+    
+    
 }
+.final {
+    text-align: center;
+    padding: 5px;
+}
+.text2 {
+    opacity: 0.2;
+    width: 50%;
+    height: 550px;
+}
+
