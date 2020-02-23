@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$().ready(function() {
     $("#part1").click(function() {
         $("#desi").toggle();
         $("#desiploy").toggle();
@@ -18,5 +18,13 @@ $().ready(function() {
     })
     $(".fifth").mouseleave(function() {
         $(this).fadeTo("fast", 1)
+    })
+})
+$().ready(function () {
+    $("#contact form").submit(function (event) {
+        var fname = $("input#mce-FNAME").val();
+        var lname = $("input#mce-LNAME").val();
+        alert("Hi, " + fname + lname + ". We got your details. Thank you for continuing with us by subscribing.")
+        event.preventDefault()
     })
 })
