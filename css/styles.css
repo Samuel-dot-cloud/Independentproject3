@@ -43,7 +43,6 @@
 
 div.desc {
     text-align: center;
-    
 }
 
 * {
@@ -84,29 +83,20 @@ div.desc {
     text-align: center;
     color: white;
 }
+
 .text1 {
     text-align: center;
     float: center;
     color: white;
 }
-.form-group {
-    opacity: 0.2;
-    text-align: center;
-    padding: 40px;
-    
-    
-    
-}
+
 .final {
     text-align: center;
     padding: 5px;
 }
+
 .text2 {
     opacity: 0.2;
     width: 50%;
     height: 550px;
 }
-
-
-
-
