@@ -14,7 +14,7 @@ $().ready(function() {
 });
 $().ready(function() {
     $(".fifth").mouseenter(function() {
-        $(this).fadeTo("fast", 2)
+        $(this).fadeTo("fast", 0.4)
     })
     $(".fifth").mouseleave(function() {
         $(this).fadeTo("fast", 1)
