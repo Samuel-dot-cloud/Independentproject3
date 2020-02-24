@@ -1,7 +1,10 @@
-$().ready(function() {
+$(document).ready(function() {
+    console.log('------------------------------------');
+    console.log('------------------------------------');
     $("#desi").click(function() {
+        console.log('works');
 
-        $("#desiploy").toggle();
+        $("#desiploy").toggle()
     });
     $("#develop").click(function() {
 
@@ -11,16 +14,16 @@ $().ready(function() {
 
         $("#productmnploy").toggle();
     });
-});
-$().ready(function() {
-    $(".fifth").mouseenter(function() {
+
+    $(".third").click(function() {
         $(this).fadeTo("fast", 0.4)
     })
-    $(".fifth").mouseleave(function() {
-        $(this).fadeTo("fast", 1)
+    $("div.column").mouseenter(function() {
+        $(this).fadeTo("slow", 0.4)
     })
-})
-$().ready(function() {
+    $("div.column").mouseleave(function() {
+        $(this).fadeTo("slow", 1)
+    })
     $("#mc_embed_signup").submit(function(event) {
         var fname = $("input#mce-FNAME").val();
         var lname = $("input#mce-LNAME").val();
