@@ -21,7 +21,7 @@ $().ready(function() {
     })
 })
 $().ready(function() {
-    $("#contact form").submit(function(event) {
+    $("#mc_embed_signup").submit(function(event) {
         var fname = $("input#mce-FNAME").val();
         var lname = $("input#mce-LNAME").val();
         alert("Hi, " + fname + lname + ". We got your details. Thank you for continuing with us by subscribing.")
