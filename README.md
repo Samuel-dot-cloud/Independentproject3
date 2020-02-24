@@ -1,5 +1,5 @@
 # PROJECT NAME.
-The project is titled "Delani Studio". It is basically a fictional website for developers showcasing their work.For more information on how the project works, check out the following link:https://samuel-dot-cloud.github.io/Independent-project3/
+The project is titled "Delani Studio". It is basically a fictional website for developers showcasing their work.For more information on how the project works, check out the following link:https://samuel-dot-cloud.github.io/Independentproject3/
 ## PROJECT DESCRIPTION.
 The project is basically a webpage that requires you to key in essential information concerning your name and email, after which it sends you a confirmatory email by linking with mailchimp API. Thus, the website is able keep a record of all the subscribers it has, thus one is able to manage contacts.
 ### AUTHOR INFORMATION.
